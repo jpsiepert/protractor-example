@@ -1,0 +1,19 @@
+<form>
+<div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" ng-model="user.name.first" placeholder="Enter First Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Last Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" ng-model="user.name.last" placeholder="Enter Last Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" ng-model="user.email" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" ng-model="user.password" placeholder="Choose a Password">
+  </div>
+  <button type="submit" class="btn btn-primary" ng-click="register()">Register</button>
+</form>
