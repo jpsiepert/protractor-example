@@ -6,6 +6,9 @@ This is a brief example of what can be done with Protractor
 ### Local Setup
 
 #### Setting up Protractor
+
+It is expected you have bower and npm set up on your computer.
+
 Installing protractor installs webdriver-manager as well
 
 ```npm install -g protractor```
@@ -14,9 +17,8 @@ Installing protractor installs webdriver-manager as well
 
 ```webdriver-manager start```
 
-Make sure you have bower installed, if not: ```npm install -g bower```
-
 Fork/Clone this repo
+
 
 From the public folder run ```bower install```
 
