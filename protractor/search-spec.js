@@ -3,8 +3,7 @@
 describe('clicking search', function() {
 
   it('should search', function() {
-    browser.get('/#/login');
-    login();
+
     browser.sleep(2000);
 
     inputSearch.sendKeys('superman');
