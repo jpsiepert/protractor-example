@@ -3,7 +3,7 @@
 describe('clicking search', function() {
 
   it('should search', function() {
-    browser.get('/#/login');
+    browser.get('http://localhost:8080/#/login');
     element(by.model('user.email')).sendKeys('test5@test5.com');
     element(by.model('user.password')).sendKeys('test');
     element(by.css('[ng-click="login()"]')).click();

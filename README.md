@@ -1,4 +1,5 @@
-# Protractor Example
+# Protractor Example [![Build Status](https://travis-ci.org/jpsiepert/protractor-example.svg?branch=master)](https://travis-ci.org/jpsiepert/protractor-example)
+
 
 ### Overview
 This is a brief example of what can be done with Protractor
