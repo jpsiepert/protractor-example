@@ -6,6 +6,7 @@ before_script:
   - 'npm install -g bower'
   - 'cd public'
   - 'bower install'
+  - 'protractor test/config.js'
 cache:
   directories:
     - node_modules
