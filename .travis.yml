@@ -7,7 +7,7 @@ before_script:
   - 'bower install'
   - 'cd test'
   - 'bower install'
-  - 'grunt test'
+  - 'grunt build'
 cache:
   directories:
     - node_modules
