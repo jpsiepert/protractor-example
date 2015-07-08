@@ -3,6 +3,6 @@ dist
 .tmp
 .sass-cache
 bower_components
-.idea
+.idea/workspace.xml
 .DS_Store
 

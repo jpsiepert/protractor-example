@@ -6,7 +6,7 @@ before_script:
   - 'npm install -g bower'
   - 'cd public'
   - 'bower install'
-  - 'protractor ../test/config.js'
+  - 'grunt test'
 cache:
   directories:
     - node_modules
