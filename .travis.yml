@@ -5,7 +5,8 @@ before_script:
   - 'npm install -g protractor'
   - 'npm install -g bower grunt-cli'
   - 'npm install -g bower'
-  - 'cd public'
+  - 'bower install'
+  - 'cd test'
   - 'bower install'
   - 'grunt test'
 cache:
