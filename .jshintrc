@@ -11,7 +11,7 @@
   "latedef": true,
   "newcap": true,
   "noarg": true,
-  "quotmark": "single",
+  "quotemark": "single",
   "undef": false,
   "unused": false,
   "strict": true,
@@ -25,3 +25,5 @@
     "by": true
   }
 }
+
+
