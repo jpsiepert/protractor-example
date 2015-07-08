@@ -12,26 +12,20 @@ angular
   .module('protractorApp', [
     'ngAnimate',
     'ngCookies',
-    'ngResource',
     'ngRoute',
-    'ngSanitize',
-    'ngTouch',
     'firebase'
   ])
 
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      }).when('/login', {
-        templateUrl: 'views/login.html',
+        .when('/login', {
+        templateUrl: 'auth/login.html',
         controller: 'AuthCtrl',
       }).when('/register', {
-        templateUrl: 'views/register.html',
+        templateUrl: 'auth/register.html',
         controller: 'AuthCtrl'
       }).when('/awesomeness', {
-        templateUrl: 'views/awesome.html',
+        templateUrl: 'awesome/awesome.html',
         controller: 'AwesomeCtrl'
       })
       .otherwise({
