@@ -5,8 +5,6 @@ before_script:
   - 'npm install -g bower grunt-cli'
   - 'npm install -g bower'
   - 'bower install'
-  - 'cd test'
-  - 'bower install'
   - 'grunt build'
 cache:
   directories:
