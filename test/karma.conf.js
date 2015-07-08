@@ -20,10 +20,9 @@ module.exports = function(config) {
       'bower_components/angular-cookies/angular-cookies.js',
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-touch/angular-touch.js',
+      'bower_components/mockfirebase/browser/mockfirebase.js',
       'bower_components/angularfire/dist/angularfire.js',
       'bower_components/firebase/firebase.js',
-
-
 
       'app/scripts/**/*.js',
       'test/spec/**/*.js'

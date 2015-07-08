@@ -23,7 +23,6 @@ angular.module('protractorApp')
   */
   $scope.login = function login() {
     authService.login($scope.user, function(user) {
-      console.log('user', user);
       $location.path('/awesomeness');
     });
   };
@@ -44,7 +43,6 @@ angular.module('protractorApp')
 
 
   $scope.logout = function logout() {
-    console.log('logging out');
     authService.logout();
     $location.path('/login');
   };

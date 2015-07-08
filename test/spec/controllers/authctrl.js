@@ -20,10 +20,7 @@ describe('Auth Controller', function () {
     spyOn(authService, 'login');
     spyOn(authService, 'register');
     spyOn(authService, 'logout');
-    scope.user = {
-      email: 'test@test.com',
-      password: 'lovejavascript'
-    };
+
   });
 
   it('should login from service', function () {
