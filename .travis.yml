@@ -2,11 +2,10 @@ language: node_js
 node_js:
   - '0.10'
 before_script:
-  - 'npm install -g protractor'
+  - 'npm install -g bower grunt-cli'
   - 'npm install -g bower'
-  - 'cd public'
   - 'bower install'
-  - 'protractor ../test/config.js'
+  - 'grunt build'
 cache:
   directories:
     - node_modules
