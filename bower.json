@@ -17,5 +17,9 @@
     "angular-mocks": "^1.3.0"
   },
   "appPath": "app",
-  "moduleName": "protractorApp"
+  "moduleName": "protractorApp",
+  "resolutions": {
+    "firebase": "~2.2.1",
+    "angular": "^1.3.0"
+  }
 }
